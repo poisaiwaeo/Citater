@@ -5,9 +5,95 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('../src/baggrund01.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover; 
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.overskrift{
+  font-size: 50px;
+  color:#022933;
+  text-align: center;
+  padding-top:30px;
+
+}
+/*Form styling*/
+form{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-flow: wrap;
+}
+form input{
+  height: 20px;
+  padding: 5px;
+  color:#022933;
+  font-size: 16px;
+}
+form button{
+  background-color:#022933;
+  border:none;
+  border-radius: 5px;
+  color:#fff;
+  font-size: 16px;
+  padding: 5px;
+  margin: 0 10px
+}
+form button:hover{
+  opacity: 0.4;
+  
+}
+
+/*Citat*/
+.citat__wrapper{
+  /*background-color: green;*/
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+.citat__overskrift{
+  display: flex;
+  width: 100%;
+ /* background-color: aqua;*/
+  justify-content: center;
+  align-items: center;
+  height:auto;
+  margin: 0 auto;
+  font-size: 20px;
+}
+.citat__container{
+  display: flex;
+  width: 90%;
+  /*background-color:red;*/
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  margin: 0 auto;
+}
+.citat__tekst{
+  color:#ffffff;
+  border: 1px solid black;
+  padding: 30px;
+  text-align: left;
+  margin: 0 auto;
+  font-weight: bold;
+}
+.citat__btn{
+  width: 100px;
+  height: 44px;
+  background-color:#f2b632;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.citat__btn:hover{
+  opacity: 0.4;
 }
